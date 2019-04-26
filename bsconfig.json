@@ -1,0 +1,26 @@
+{
+  "name": "lets-test",
+  "version": "1.0.0",
+  "sources": [
+    "src"
+  ],
+  "bsc-flags": ["-bs-super-errors"],
+  "bs-dependencies": [
+  ],
+  "namespace": true,
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "refmt": 3,
+  "suffix": ".bs.js",
+  "warnings": {
+    "number": "+A-42-40-9"
+  },
+  "ppx-flags": [
+    "let-anything/lib/bs/native/let_anything.native"
+  ]
+}
+

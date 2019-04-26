@@ -1,0 +1,33 @@
+.DS_Store
+*.annot
+*.cmo
+*.cma
+*.cmi
+*.a
+*.o
+*.cmx
+*.cmxs
+*.cmxa
+
+# ocamlbuild working directory
+_build/
+
+# ocamlbuild targets
+*.byte
+*.native
+
+# oasis generated files
+setup.data
+setup.log
+.merlin
+.bsb.lock
+.idea
+npm-debug.log
+/lib/bs/
+/lib/js/
+/src/**/*.bs.js
+/node_modules/
+/data
+/coverage
+
+.env
